@@ -1,21 +1,21 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "Jeff Coburn",
+  "url": "https://jeffcoburn.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Stuff that is either about me or written by me.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "It's like git commit messages for my life.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://jeffcoburn.com"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://jeffcoburn.com/feed/feed.json"
   },
   "author": {
     "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "email": "jeffcoburn@gmail.com.com",
+    "url": "https://jeffcoburn.com/about-me/"
   }
 }
