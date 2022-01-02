@@ -1,0 +1,55 @@
+main {
+    background:url(/img/so-white.png);
+    background-size: 100%;
+        padding:2%;
+    position: relative;
+  }
+  main,
+  main::before,
+  main::after {
+    /* Styles to distinguish sheets from one another */
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+    border: 1px solid #bbb;
+  }
+  
+  main::before,
+  main::after {
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 99%;
+    background-color: #eee;
+  }
+  
+  main::before {
+    right: 15px;
+    top: 0;
+    transform: rotate(-1deg);
+    z-index: -1;
+  }
+  
+  main::after {
+    top: 5px;
+    right: -5px;
+    transform: rotate(1deg);
+    z-index: -2;
+  }
+-------
+main {background:url(/img/so-white.png);
+    background-size: 100%;
+        padding:2%;
+        box-shadow:
+    /* The top layer shadow */
+    0 -1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 -10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 -10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 -20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 -20px 1px -9px rgba(0,0,0,0.15);
+
+   
+        transform: rotateZ(.5deg);
+          }

@@ -7,4 +7,6 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+I'm launching this site without an about page written. If you are here at this point, I'm pretty sure you know me.
+
+Perhaps you would be interested in my <a href="/uses/">/uses</a> section.

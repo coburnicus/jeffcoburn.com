@@ -2,16 +2,17 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
+<div class="tilt">actual content &#8595;&#8595;</div>
 <h1>{{ title }}</h1>
 
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-{%- for tag in tags | filterTagList -%}
-{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %}
+<small><small><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> </small></small>
+
 
 {{ content | safe }}
-
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+<a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a> |
+{%- endfor %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 {%- if nextPost or previousPost %}
