@@ -1,0 +1,16 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+   
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script data-goatcounter="https://jeffcoburn.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+    <style>
+     
+      </style> 
+  </head>
