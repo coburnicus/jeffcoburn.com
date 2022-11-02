@@ -22,7 +22,7 @@ It might surprise no one that I can be little particular about my gear for trave
 
 - **Big-ass Bose headphones** this is a splurge in cost, but also in weight. It's the second biggest thing I packed. I could probably just use earbuds, but I really like to block out noise. I seem to be a magnet for loud unstable people to work through their issues five feet away from me, so the ability to block out the world is pretty valuable.
 
-- **Kindle Paper Weight** Runs forever, no glare, and it fits inside the Bose headphone case. So I can grab that case and put my backpack in overhead on a plane, and I'll have plenty to watch, read, listen (when combined with my phone).
+- **Kindle PaperWhite** Runs forever, no glare, and it fits inside the Bose headphone case. So I can grab that case and put my backpack in overhead on a plane, and I'll have plenty to watch, read, listen (when combined with my phone).
 
 ### Clothes gear
 
@@ -45,7 +45,7 @@ Two sweaters might be excessive, I might replace one with a classic tech-bro ves
 
 Of course pack as many pairs of underwear as there are days in your trip. Some things are immune to travel hacks.
 
-There is nothing remarkable about my toiletries, except that I use a <a href="https://www.usa.philips.com/c-m-pe/oneblade-trim-edge-and-shave#triggername=options_2b6m">OneBlande</a> and that means I don't have to bring shaving cream.
+There is nothing remarkable about my toiletries, except that I use a <a href="https://www.usa.philips.com/c-m-pe/oneblade-trim-edge-and-shave#triggername=options_2b6m">OneBlade</a> and that means I don't have to bring shaving cream.
 
 That's it. I'll probably edit this page as I change my method/habits.   
 
