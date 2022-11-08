@@ -1,29 +1,12 @@
 ---
-title: Dream Big
-date: 2022-11-05
+title: Hot Takes #1
+date: 2022-11-07
 tags:
 
 layout: layouts/post.njk
 ---
-Today I was at the shop picking up some beverages for this evening. The two people in front of me bought PowerBall tickets. 
-<blockquote>
-Me: Did anybody win the PowerBall yet?
-
-Her: Nope, it's a record high.
-
-Me: I'm game.
-
-Her: So 10 or 20 tickets?
-
-Me: ...Just one.
-</blockquote>
-<hr>
-Tonight I went around the table and asked everybody what the <i>first</i> thing you would buy with the money.
-<blockquote>
-Herself: Pay off the house.
-
-R(7): Go to a water park...for a month!
-
-W(10): Give it to charity
-</blockquote>
-For the record I would pay off the house and then take R & W to a water park for a month.
+<ol>
+    <li>Mythic Quest is a better show than Ted Lasso. "Quarantine", "Everlight" and flashback episodes like "A Dark Quiet Death" and "Backstory!" don't get the love they deserve.</li>
+    <li>Microsoft Outlook for the Web is a better product than Gmail. Just as good interface and keyboard shortcuts, a more robust extension support and Power Automate makes it killer.</li>
+    <li>Light VS Code themes are superior to dark themes. I am old.</li>
+</ol>
