@@ -5,7 +5,7 @@ tags:
   - uses
 layout: layouts/post.njk
 ---
-It might surprise no one that I can be little particular about my gear for traveling. So today I'll dive a bit into how I packed for a recent 4 day/3 Night, work trip with some socializing as well. I don't do *businessing* or anything the requires a proper suit. But I try to look decent, and ready for everything a trip could hold in store. I pack in one backpack, which is carry-on. So everything that follows is either on me or in that bag. I value:
+It might surprise absolutely nobody that I can be little particular about my gear for traveling. So today I'll dive a bit into how I packed for a recent 4 day/3 Night, work trip with some socializing as well. I don't do *businessing* or anything the requires a proper suit. But I try to look decent, and ready for everything a trip could hold in store. I pack in one backpack, which is carry-on. So everything that follows is either on me or in that bag. I value:
  - things that can be re-worn, 
  - are packable, 
  - and work in inclement weather.
