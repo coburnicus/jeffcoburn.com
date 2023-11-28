@@ -34,7 +34,7 @@ I have moved over to a [Logitech MX Master 3 for Mac](https://www.logitech.com/e
 **Eyeglasses** - I have marginal eyesight, but I hate wearing readers at a computer because they rest of the world become blurry. Ray-Ban makes some "[computer glasses](https://www.readingglasses.com/ray-ban/?searchinput=computer)" that are more magnified at the bottom of the lense (less at top) which seem to work well for my situation. I can look away from the screen and still see things.
 <hr>
 
-## SOFTWARE
+## SOFTWARE (Default Apps)
 
 **Text-editor:** Shocker, I use [VS-Code](https://code.visualstudio.com/). I tend to just use whatever everybody else is using because any questions I have will be robustly answered in StackOverFlow and any extensions I need will exist. I will say this is probably the longest I've ever been on one editor (I was on TextMate for a long while too).
 
@@ -58,9 +58,33 @@ I have moved over to a [Logitech MX Master 3 for Mac](https://www.logitech.com/e
 - [AXE](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) So I can see if what you are building is accessible.
 - [Web Developer Toolbar](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) A classic. Still go to this often.
 
-**Email** Deep breath. Because my employer is a Microsoft [ed] shop, I must use Office and Exchange. While you can use almost any email client with Exchange, none of them work super great. The one that works best for me is...Outlook for Web. I know I know. Since I don't love email as a part of my browser, I sandbox it into a container app (~~I used [Flotato](https://www.flotato.com/) last time~~ I use Safari Web Apps). So now the web view works like a native app. Kind of. Email sucks and this is the best system I've come up with so far.
+**Email** Deep breath. Because my employer is a Microsoft [ed] shop, I must use Office and Exchange. While you can use almost any email client with Exchange, none of them work super great. The one that works best for me is...Outlook for Web. I know I know. Since I don't love email as a part of my browser, I sandbox it into a container app (~~I used [Flotato](https://www.flotato.com/) last time~~ I use Safari Web Apps). So now the web view works like a native app. Kind of. Email sucks and this is the best system I've come up with so far. My personal email is on GMail, for now.
 
-**Task Management** As mentioned above, my org tends to use MSFT Planner for project planning. I also use MSFT *To Do* and don't activily hate it. The "My Day" feature is nice and I can turn emails into tasks that refer back to the email. If I have it open inside of out Outlook Calendar, I can drag/drop tasks onto my calender to schedule time to work on it. In general, because I have serious focus issues, I try and practice "[1 Item To Do Lists](https://hbr.org/2020/08/your-to-do-list-is-in-fact-too-long)."
+**Calendars** Work is thorugh Outlook/Exchange; personal/family is through google. Both are viewed via Apple's Calendar app.
+
+**RSS** NetNewsWire
+
+**Task Management** As mentioned above, my org tends to use MSFT Planner for project planning. I also use MSFT *To Do* and don't actively hate it. The "My Day" feature is nice and I can turn emails into tasks that refer back to the email. If I have it open inside of out Outlook Calendar, I can drag/drop tasks onto my calender to schedule time to work on it. In general, because I have serious focus issues, I try and practice "[1 Item To Do Lists](https://hbr.org/2020/08/your-to-do-list-is-in-fact-too-long)."
+
+**Contacts** Work is via Exchange; personal is via Apple.
+
+**Chat** Apple Messages, Slack, Teams (work) and occasionally WhatsApp for family and friends in the EU.
+
+**Word Proccessing** Word, Google Docs.
+
+**Spreadsheets** Excel, Google Sheets
+
+**Shopping Lists** AnyList (shared with herself)
+
+**News** CNN (out of muscle memory) NYTimes, and memeorandum.com (aggregator)
+
+**Music** Apple Music just because we save money with our Apple One subscription. We have some Sonos gear and the intergration is not as good as Spotify.
+
+**Podcasts** Overcasts for personal, Apple Podcasts for work.
+
+**VPN** NORD
+
+**Cloud Storage** iCloud for me, OneDrive for them.
 
 I use Slack, Github and Terminal like any other good little dev. I have to use MSFT Teams and Planner, but I can't say I love it. But we get them for free, and we get support with it, so.
 
