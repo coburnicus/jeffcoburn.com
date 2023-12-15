@@ -9,4 +9,4 @@ Readers of this site might notice that I refer to my partner, who has an actual 
 
 Dean was a heartbreakingly talented writer. His ability to make his prose show adoration for the things he loved and disdain for the things he didn't, will go unmatched. So using the term on my stupid site is to honor him; and it makes me happy.
 
-Dean, like all things toO good for this world, is <a href="https://kottke.org/18/01/rest-in-peace-dean-allen">gone now</a>. But I would encourage anyone to spend an hour or so digging through his <a href="https://web.archive.org/web/20030203222323/http://www.textism.com/">archived</a> <a href="https://web.archive.org/web/20010205000100/http://cardigan.com/">stuff</a>.
+Dean, like all things too good for this world, is <a href="https://kottke.org/18/01/rest-in-peace-dean-allen">gone now</a>. But I would encourage anyone to spend an hour or so digging through his <a href="https://web.archive.org/web/20030203222323/http://www.textism.com/">archived</a> <a href="https://web.archive.org/web/20010205000100/http://cardigan.com/">stuff</a>.
