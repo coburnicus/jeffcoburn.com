@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Adventures in Jeffland</title>
+	<subtitle>It&#39;s like git commit messages for my life.</subtitle>
+	
+	<link href="https://jeffcoburn.com/feed/feed.xml" rel="self"/>
+	<link href="https://jeffcoburn.com/"/>
+	<updated>2023-02-07T00:00:00Z</updated>
+	<id>https://jeffcoburn.com</id>
+	<author>
+		<name>Jeff Coburn</name>
+		<email>jeffcoburn@duck.com</email>
+	</author>
+	
+	<entry>
+		<title>TIL - How I Fixed Endless Sharp Module Errors in Gatsby</title>
+		<link href="https://jeffcoburn.com/posts/til/sharp/"/>
+		<updated>2023-02-07T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/til/sharp/</id>
+		<content type="html">&lt;p&gt;Dear Future Jeff,&lt;/p&gt;
+&lt;p&gt;The next time your Gatsby dependencies fall apart like stairs falling down stairs, you might just try this (which just worked for us).&lt;/p&gt;
+&lt;code&gt;
+  brew remove vips
+  rm -rf node_modules
+  yarn install
+&lt;/code&gt;
+&lt;p&gt;We found this &lt;a href=&quot;https://stackoverflow.com/questions/67560211/mac-m1-something-went-wrong-installing-the-sharp-module&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&#39;m certain we&#39;ve actually had and solved this problem before, so that is why I&#39;m just going to leave this note for you.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>WeekNotes - Nov 27, 2022</title>
+		<link href="https://jeffcoburn.com/posts/weeknotes/11-27-2022/"/>
+		<updated>2022-12-27T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/weeknotes/11-27-2022/</id>
+		<content type="html">&lt;p&gt;Super chill TDay weekend; no travel, and a very favorable pie/visitor ratio. The kids are old enough where they have interests that don&#39;t involve an adult&#39;s direct involvement, so there was a lot of people doing things they liked. Baking, reading, building, puttering, gaming, snacking, etc. I wore my favorite sweatshirt a lot. It&#39;s not to say I didn&#39;t do anything productive. I helped my father-in-law blow in insulation into an attic for 4 hours, I got my lumberjack on with some backyard trees, I even participated in the first annual neighborhood Thanksgiving morning football game. A++ would do again.&lt;/p&gt;
+&lt;h3 id=&quot;projects&quot;&gt;Projects &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/11-27-2022/#projects&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;broke out my electric chainsaw and got after some felled trees.&lt;/li&gt;
+&lt;li&gt;Tried to get my outdoor lights to be &amp;quot;smart&amp;quot; again. Really need the Matter protocol to be a thing, soonish.&lt;/li&gt;
+&lt;li&gt;Messed about moving my social graph off of bird site and onto elephant site.&lt;/li&gt;
+&lt;li&gt;Assembled a tumbler composting bin. Rhone-Dogg learned all about composting in his second grade class, so we are giving it a go.&lt;/li&gt;
+&lt;li&gt;Trying to as many quests done in fortnite before this season ends (I am the best 17-year-old ever).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;read&quot;&gt;Read &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/11-27-2022/#read&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/24611819-the-peripheral&quot;&gt;&lt;strong&gt;The Peripheral&lt;/strong&gt;&lt;/a&gt;. I have read a lot of William Gibson books (as a good little nerd), and this is pretty good. The world-collapsing &amp;quot;jackpot&amp;quot; the story is centered around is disturbing in that Gibson has been pretty spot-on with his visions of the future. Do not want. I actually put this book down for a while but picked back up in time to finish it before the start of the TV Series.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;watched&quot;&gt;Watched &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/11-27-2022/#watched&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.imdb.com/title/tt8291284/&quot;&gt;&lt;strong&gt;The Peripheral&lt;/strong&gt;&lt;/a&gt;. Seven episodes in and I am enjoying it. A good balance of taking from the book, and adapting it to screen. I was really not seeing how this book would ever be comprehensible on screen, but they have done of great job at adapting it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mythic Quest&lt;/strong&gt; Season 3 (Apple TV +). I&#39;ve gone on the record saying this show is better than Ted Lasso, and I stand by my words. Really funny, good take on technology, and the characters have interesting and funny arcs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Andor&lt;/strong&gt; (Disney +). Really good. This, and season 2 of The Mandalorian would be the only Star Wars shows I would say that about.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Made it one episode into Ring Of Power. Nah.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>piss off</title>
+		<link href="https://jeffcoburn.com/posts/2022/no/"/>
+		<updated>2022-11-11T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/no/</id>
+		<content type="html">&lt;p&gt;I got home from the bar hammered and I just wanted you to know I did my blog post.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Textism</title>
+		<link href="https://jeffcoburn.com/posts/2022/himself/"/>
+		<updated>2022-11-10T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/himself/</id>
+		<content type="html">&lt;p&gt;Readers of this site might notice that I refer to my partner, who has an actual name, as Herself. I do this for two reasons. One reason is that it seems to annoy her, as she feels I am oddly private about her. I am not. I am tastefully private about her. The other reason I use the term is as a nod to my favorite web writer, (calling him a blogger seems an insult) Dean Allen. He always referred to his partner as Herself. The reason I started writing was because I wanted to write like him and &lt;a href=&quot;https://lancearthur.medium.com/&quot;&gt;Lance Arthur&lt;/a&gt;. (You might not believe this but I actually wrote near-daily for 5 years).&lt;/p&gt;
+&lt;p&gt;Dean was a heartbreakingly talented writer. His ability to make his prose show adoration for the things he loved and disdain for the things he didn&#39;t, will go unmatched. So using the term on my stupid site is to honor him; and it makes me happy.&lt;/p&gt;
+&lt;p&gt;Dean, like all things too good for this world, is &lt;a href=&quot;https://kottke.org/18/01/rest-in-peace-dean-allen&quot;&gt;gone now&lt;/a&gt;. But I would encourage anyone to spend an hour or so digging through his &lt;a href=&quot;https://web.archive.org/web/20030203222323/http://www.textism.com/&quot;&gt;archived&lt;/a&gt; &lt;a href=&quot;https://web.archive.org/web/20010205000100/http://cardigan.com/&quot;&gt;stuff&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cool Kids Candy</title>
+		<link href="https://jeffcoburn.com/posts/2022/it_burns/"/>
+		<updated>2022-11-09T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/it_burns/</id>
+		<content type="html">&lt;p&gt;Herself, returned from a trip to the University she is employed by, handed me a pack of strange candy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;I got you this. I was in line at the campus store and every single kid in front of me grabbed a pack of this at the register. I know you love to keep up with what the kids are into.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I thought about nothing else since. Was it a generous, thoughtful act? Was it the the sickest of sick burns? I feel like this could literally trigger my impeding mid-life crisis.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Reinforced Bubbles</title>
+		<link href="https://jeffcoburn.com/posts/2022/reinforced_bubble/"/>
+		<updated>2022-11-08T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/reinforced_bubble/</id>
+		<content type="html">&lt;p&gt;One of the concepts that was transmitted on repeat over the past decade is the idea of social media forming bubbles where you only see political/cultural content that already jives with what you already believe. Surely that is true, but you still shared the same platform with people who you might wildly disagree with, even if they only content you might have seen was fodder for lolz.&lt;/p&gt;
+&lt;p&gt;I have a hunch that as FB and Twitter start have a bit of an exodus, people seem to be replacing them with platforms that entirely jive with their general world view. I&#39;m not drawing any equivalency between Mastodon and TruthParlorBagofShit, but it does seem that as we choose platforms we are choosing sides.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AE7IMHRjbeQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>Hot Takes No. 1</title>
+		<link href="https://jeffcoburn.com/posts/2022/hottakes1/"/>
+		<updated>2022-11-07T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/hottakes1/</id>
+		<content type="html">&lt;ol&gt;
+    &lt;li&gt;Mythic Quest is a better show than Ted Lasso. &quot;Quarantine&quot;, &quot;Everlight&quot; and flashback episodes like &quot;A Dark Quiet Death&quot; and &quot;Backstory!&quot; don&#39;t get the love they deserve.&lt;/li&gt;
+    &lt;li&gt;Microsoft Outlook for the Web is a better product than Gmail. Just as good interface and keyboard shortcuts, more robust extension support and Power Automate makes it killer.&lt;/li&gt;
+    &lt;li&gt;Light VS Code themes are superior to dark themes. I am old.&lt;/li&gt;
+&lt;/ol&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>Mastodon</title>
+		<link href="https://jeffcoburn.com/posts/2022/mastodon/"/>
+		<updated>2022-11-06T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/mastodon/</id>
+		<content type="html">&lt;p&gt;Twitter et al seems like it&#39;s working through some issues. I have no loyalty to it, of course, but I do think it&#39;s a shame. I have a lovely little network of friendly and supportive folks that have made pandemic-induced isolation much more tolerable. Most of them have been in my life for a decade or more. It&#39;s fair to say that none of this would have happened without Twitter. I also love dumb joke and watching people out themselves as fools.&lt;/p&gt;
+&lt;p&gt;But if you get the sense your car is gonna shit the bed, it&#39;s not a bad idea to take a look around the car market. Mastodon is the most interesting player that I&#39;ve seen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PROS&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&#39;s been taken up by mostly people I want to be around. And I have a lot of control over what I see.&lt;/li&gt;
+&lt;li&gt;No ads, no brand engagement.&lt;/li&gt;
+&lt;li&gt;pretty geeky with its servers and federation and what not.&lt;/li&gt;
+&lt;li&gt;I have control of my timeline view, so I don&#39;t get the sense that there is a corporation pricking me to see how I react.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CONS&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It lacks the viral/addictive aspect [a better person would put that in the PROS]. Because I haven&#39;t spent 15 years training twitter to give me what I want, I find myself less amused with my mastodon timeline. I think this is ultimately a good thing, but it could be why it doesn&#39;t end up taking with me.&lt;/li&gt;
+&lt;li&gt;While I appreciate the geekyness of the whole thing, the learning curve is more than I&#39;m used to for a social media product.&lt;/li&gt;
+&lt;li&gt;The instance I set up my account has some classic Fail Whale. This probably means I should throw some money their way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Anywho, I&#39;m at &lt;a href=&quot;https://mastodon.social/@coburnicus&quot;&gt;https://mastodon.social/@coburnicus&lt;/a&gt; if you want to find me.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Dream Big</title>
+		<link href="https://jeffcoburn.com/posts/2022/dream-big/"/>
+		<updated>2022-11-05T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/dream-big/</id>
+		<content type="html">&lt;p&gt;Today I was at the shop picking up some beverages for this evening. The two people in front of me bought PowerBall tickets.&lt;/p&gt;
+&lt;blockquote&gt;
+Me: Did anybody win the PowerBall yet?
+&lt;p&gt;Her: Nope, it&#39;s a record high.&lt;/p&gt;
+&lt;p&gt;Me: I&#39;m game.&lt;/p&gt;
+&lt;p&gt;Her: So 10 or 20 tickets?&lt;/p&gt;
+&lt;p&gt;Me: ...Just one.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+Tonight I went around the table and asked everybody what the &lt;i&gt;first&lt;/i&gt; thing you would buy with the money.
+&lt;blockquote&gt;
+Herself: Pay off the house.
+&lt;p&gt;R(7): Go to a water park...for a month!&lt;/p&gt;
+&lt;p&gt;W(10): Give it to charity&lt;/p&gt;
+&lt;/blockquote&gt;
+For the record I would pay off the house and then take R &amp; W to a water park for a month.</content>
+	</entry>
+	
+	<entry>
+		<title>The Way I Don&#39;t See It</title>
+		<link href="https://jeffcoburn.com/posts/2022/The-way-i-dont-see-it/"/>
+		<updated>2022-11-04T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/The-way-i-dont-see-it/</id>
+		<content type="html">&lt;p&gt;One of the things that draws me toward technology is that if something doesn&#39;t work they way you want, you can probably do something about it. Have a hard time reading dark text off a light background? Enable dark mode or run your own stylesheet. Have a cluttered background in your office on zoom calls? Put a different background behind you. Fixing a problem is a very rewarding feeling. Running into a wall fixing problems is the opposite of that.&lt;/p&gt;
+&lt;p&gt;Some problems are dumb but I&#39;ll just live with them. My HomePod Mini loudly repeating every command back to me, even if it is 2am, is not ideal. Siri being willfully unaware of Google/Nest products on the same network, also is shit. Those are the pitfalls of buying things inside the &amp;quot;walled garden.&amp;quot; But there is a series of problems that I am running into that are increasingly unacceptable: Text size.&lt;/p&gt;
+&lt;p&gt;I am one of the sad souls in a pub, shining a phone flashlight on the menu. Even sadder, I am probably looking at the phone screen, using the camera zoom to magnify. I now have reading glasses in nearly every room in the house and both cars. Turns out you can buy them in bulk. But I don&#39;t always have reading glasses on me, because if the text is big enough, I can manage. I like to control font size per device, per app. I set VS Code has a reasonable font size, same with my my email app. But a few things don&#39;t let you control text at every level I need it. And because nearly everything in my life is Apple, I&#39;m often grumpy with them.&lt;/p&gt;
+&lt;p&gt;Current walls include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The new weather-themed lock screen widgets on iOS 16. BOOOOOOOOO&lt;/li&gt;
+&lt;li&gt;Any of the more useful Apple Watch complications. BOOOOOOOOO&lt;/li&gt;
+&lt;li&gt;Message text inside the gmail app (not notifications and not the inbox, the actual message). &lt;em&gt;Yes there are other email apps, but I watch live tv sports with remote mates, and the official gmail app is the only one that &amp;quot;pushes&amp;quot; messages.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The fact that I can&#39;t control the text size tells me that Apple isn&#39;t valuing that. And they should. I can&#39;t imagine I am the only person who is starting to look over the garden wall for solutions.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I 	Heart PWAs</title>
+		<link href="https://jeffcoburn.com/posts/2022/I-Heart-PWAs/"/>
+		<updated>2022-11-03T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/I-Heart-PWAs/</id>
+		<content type="html">&lt;p&gt;Two ideas exist in opposition, on my laptop.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I like the web, and it&#39;s open standards (HTML, CSS, JS, etc)&lt;/li&gt;
+&lt;li&gt;I prefer tools I use a lot to be native. This means I would rather have an email application that I open, rather than have my email as a tab in my browser.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Luckily there is a loophole. Enter &lt;em&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps&quot;&gt;Progressive Web Apps (PWAs)&lt;/a&gt;&lt;/em&gt;. If you couldn&#39;t gather from the link, PWA&#39;s allow you to &amp;quot;install&amp;quot; a webpage on your device the way you would an app. Looking at my desktop now, I currently have four PWAs running (Outlook, Gmail, Planner, and SeeSaw (an app communicate with teachers/schools)). For &lt;em&gt;reasons&lt;/em&gt; I also often use Slack and Twitter as PWAs as well. For tools that I need to use often, I prefer to cmd-tab to the app, rather then find them in the roughly 1400 open tabs in my browser. This allows me to use the web versions of these tools, and have dedicated instances for each .&lt;/p&gt;
+&lt;p&gt;Currently, I use &lt;a href=&quot;https://brave.com/&quot;&gt;Brave&lt;/a&gt; a privacy-focused fork of Chrome. When combined with &lt;a href=&quot;https://ublockorigin.com/&quot;&gt;uBlock Origin&lt;/a&gt;, the ad blocker, I have a lot of control over what gross corporations track me about the web. You should be able to make your PWAs with any version of chrome. I don&#39;t believe Firefox or Safari allow PWAs, which is a shame, as I use Firefox heavily as well.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Names, my worst enemy</title>
+		<link href="https://jeffcoburn.com/posts/2022/whats-the-name-again/"/>
+		<updated>2022-11-02T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/whats-the-name-again/</id>
+		<content type="html">&lt;p&gt;Lots of people say they are bad with names, but I am truly awful at names. Not all names. Like, if you need me to name the entire batting order of the &#39;88 Red Sox, I&#39;m all over it. But in meaningful instances, I&#39;m a lost cause. The other night we hosted a bunch of folks for a pre-game halloween party and I had to introduce two couples to each other, and I batted .500. This sketch is just my daily life.&lt;/p&gt;
+&lt;center&gt;
+&lt;iframe style=&quot;max-width:800px;&quot; src=&quot;https://www.youtube.com/embed/rImxuuD_kwM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;p&gt;This leads me to the current book I&#39;m reading, &lt;a href=&quot;https://www.goodreads.com/book/show/58662507-nona-the-ninth&quot;&gt;Nona The Ninth&lt;/a&gt; (The Locked Tomb #3). To be clear, I love this series. But this book is just a near constant reminder that I am shit with names. If I didn&#39;t know better, I would say this book went out of the way to specifically fuck with me. Some aggravating factors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Too many names. Well over 50 meaningful characters at this point. I&#39;m good with something closer to ... five.&lt;/li&gt;
+&lt;li&gt;Multiple Characters that start with the same letter. Internally my mind reads &amp;quot;the C name&amp;quot; which doesn&#39;t work when three character&#39;s names begin with C.&lt;/li&gt;
+&lt;li&gt;Characters names change over the course of the series. Coronabeth is now Crown, etc.&lt;/li&gt;
+&lt;li&gt;Separate characters now share bodies. I give up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I will say this book has some pretty great names (We Suffer, Born in the Morning, Noodle). Anyway, I&#39;m off to read more because, again, it&#39;s a pretty great book.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>What Goes In My Travel Bag</title>
+		<link href="https://jeffcoburn.com/posts/2022/what-goes-in-my-bag/"/>
+		<updated>2022-11-01T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2022/what-goes-in-my-bag/</id>
+		<content type="html">&lt;p&gt;It might surprise absolutely nobody that I can be little particular about my gear for traveling. So today I&#39;ll dive a bit into how I packed for a recent 4 day/3 Night, work trip with some socializing as well. I don&#39;t do &lt;em&gt;businessing&lt;/em&gt; or anything the requires a proper suit. But I try to look decent, and ready for everything a trip could hold in store. I pack in one backpack, which is carry-on. So everything that follows is either on me or in that bag. I value:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;things that can be re-worn,&lt;/li&gt;
+&lt;li&gt;are packable,&lt;/li&gt;
+&lt;li&gt;and work in inclement weather.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The Bag&lt;/strong&gt; is a 20 year old NorthFace Recon. It&#39;s not perfect, but it hasn&#39;t given me any real reasons to replace it (this is a theme in my life). Legend has it this was actually my wife&#39;s bag, but somehow became my bag. I can neither confirm nor deny this rumor. It doesn&#39;t have a dedicated laptop pocket (just a flimsy sleeve) and its not really waterproof. But is has the right amount of pockets (1 big, 1 medium, 1 small) and deep side pockets for water bottles. If I traveled more I might consider replacing it.&lt;/p&gt;
+&lt;h3 id=&quot;tech-gear&quot;&gt;Tech Gear &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/2022/what-goes-in-my-bag/#tech-gear&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Laptop&lt;/strong&gt; Macbook Pro 16″. A sixteen inch laptop is not optimal to travel with. Doesn&#39;t fit on table/trays well, doesn&#39;t slid into the bag well, is bulky and heavy. If I traveled more, or had a redo, I might have gone with the 14″. It&#39;s a year old, so the battery lasts forever. That is nice.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;iPhone&lt;/strong&gt; but of course. But, I switched over to a cheaper VZW pre-paid plan during quarantine times because I rarely left home, let alone town. The phone plan sucks ass so hard. It always fails me when I need it most, so I end up having to find sketchy wifi to access gMaps to unfuck myself. It added stress.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cables&lt;/strong&gt; I bought an &lt;a href=&quot;https://www.amazon.com/dp/B09C5RG6KV/ref=emc_b_5_i&quot;&gt;Anker 3 port charger&lt;/a&gt; and that is it for chargers. It replaces a bunch of gear, and charges my laptop, phone, and watch, but I am iffy on how well it was handling it. If it didn&#39;t have all night to charge all three, it might have let me down. So far so good.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Big-ass Bose headphones&lt;/strong&gt; this is a splurge in cost, but also in weight. It&#39;s the second biggest thing I packed. I could probably just use earbuds, but I really like to block out noise. I seem to be a magnet for loud unstable people to work through their issues five feet away from me, so the ability to block out the world is pretty valuable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kindle PaperWhite&lt;/strong&gt; Runs forever, no glare, and it fits inside the Bose headphone case. So I can grab that case and put my backpack in overhead on a plane, and I&#39;ll have plenty to watch, read, listen (when combined with my phone).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;clothes-gear&quot;&gt;Clothes gear &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/2022/what-goes-in-my-bag/#clothes-gear&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Waterproof shell&lt;/strong&gt; Mine is not very waterproof and will be replaced soon. I&#39;m not going to be afraid to go all in for this purchase because being warm and dry is very important, especially when you are packing minimal amounts of clothing. It rained this morning and I am sitting on an Amtrak train, a little damp, and that is a bummer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.blundstone.com/rustic-black-leather-chelsea-boots-mens-style-587&quot;&gt;Blundstone Boots&lt;/a&gt;&lt;/strong&gt; These are near perfect. They go with whatever you are wearing (can look casual or dressy), comfy enough to do real miles, easy on/off during air travel security theatre hour, and can be waterproof with the right treatment. I stopped tricking myself into believing that I might go to the hotel gym, so now I only bring these.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.eddiebauer.com/p/13407854/mens-voyager-20-travel-blazer&quot;&gt;Travel Blazer&lt;/a&gt;&lt;/strong&gt; Works for work stuff, conference attire (I am a code monkey but have to cosplay in government and academia). Wore it out for social stuff. It&#39;s packable. Just a useful and functional garment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2 pair of pants&lt;/strong&gt; You &lt;em&gt;could&lt;/em&gt; roll with one pair, surely. But that seems...risky. &lt;a href=&quot;https://www.kuhl.com/kuhl/mens/pants/resistor-jean/&quot;&gt;One pair&lt;/a&gt; is something people use to scale mountain rock faces, but I use to build websites (I&#39;ve dubbed this concept &amp;quot;tactical office wear&amp;quot;). One pair is black jeans with some stretch (that is just how I like them). Slim black jeans and a blazer can look pretty dressy, so that adds some versatility.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Two light weight Merino wool sweaters&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Two collared shirts&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Two light weight merino wool t-shirts&lt;/strong&gt; (maybe with spandex blend)&lt;br /&gt;
+&lt;strong&gt;Two pair merino wool light hiking socks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You are picking up on a trend here, yes? I alternate through these and they stay looking nice, and just as important, smelling nice. Merino wool is apparently some sort of magic material that cost $100 per inch but seems to be worth it.&lt;/p&gt;
+&lt;p&gt;Two sweaters might be excessive, I might replace one with a classic tech-bro vest for another layer of warmth and some more versatility.&lt;/p&gt;
+&lt;p&gt;Of course pack as many pairs of underwear as there are days in your trip. Some things are immune to travel hacks.&lt;/p&gt;
+&lt;p&gt;There is nothing remarkable about my toiletries, except that I use a &lt;a href=&quot;https://www.usa.philips.com/c-m-pe/oneblade-trim-edge-and-shave#triggername=options_2b6m&quot;&gt;OneBlade&lt;/a&gt; and that means I don&#39;t have to bring shaving cream.&lt;/p&gt;
+&lt;p&gt;That&#39;s it. I&#39;ll probably edit this page as I change my method/habits.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Ireland 2022 (the craic was mighty)</title>
+		<link href="https://jeffcoburn.com/posts/ireland2022/"/>
+		<updated>2022-07-02T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/ireland2022/</id>
+		<content type="html">&lt;h1 id=&quot;pre-launch&quot;&gt;Pre Launch &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/ireland2022/#pre-launch&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We got this trip off to a weird start because we booked the trip in January (before the huge price jump/gouge. Yeah!) for the weekend after the kids school let out, but then they had four more snow days and therefore we missed the last four school days. It seemed like they missed a bunch of movies and field days so it was probably fine. Thankfully, it seems we are the only people on the planet who flew to and from a destination and had no delays or lost luggage. I would not push my luck and try that again, for the time being. We also flew on Aer Lingus, which is a million times better than last time when we flew Norwegian Airlines. Norwegian decided that our flight would leave from a different city (Providence RI, not Boston) and land in a different city (Dublin, not Shannon) and the trip would happen on a different day. I try to go with the flow, but that was a lot.&lt;/p&gt;
+&lt;h1 id=&quot;week-1&quot;&gt;Week 1 &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/ireland2022/#week-1&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The whole reason we can do this trip is Herself&#39;s folks have an apartment and car in Killarney Ireland. Our trip would be about 2 days long if we had to pay for hotels and car rentals. This trip was different because Herself&#39;s sister (twin, ie Spare Parts) has relocated back to Ireland and is getting set up with her new life, so therefore is living in said apartment, driving said car. It is great to send time with her, and the boys eat up any time they get with her. It was a flashback to the days when she often lived with us in some cramped apartment outside of Boston.&lt;/p&gt;
+&lt;p&gt;I spent the first week commuting with La Twin to the next town over, Tralee, where she works at the university. I found a co-working space downtown that was very accommodating. Being a long time remote worker (a decade +), it&#39;s always a nice change of pace to work in an office, talk to folks, get tasty lunches out. Tralee is a really neat irish city, much less touristy than Killarney. I didn&#39;t make any new BFFs, like I did last trip (love you, Declan).&lt;/p&gt;
+&lt;h1 id=&quot;week-2&quot;&gt;Week 2 &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/ireland2022/#week-2&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We always do an extended trip to Herself&#39;s people in Collooney (County Sligo). There is about 100 relatives around and every night is something. Big dinners, night at the pub, bonfire, just lots going on. We did some amazing hikes (Queen Maeve&#39;s grave was the highlight). My brother-in-law and his family (who live 30 minutes away and we see every month or so) made the trek too were visiting this week as well. Even though we see them often, it was great to do this adventure with them. Probably the highlight of the week was going with an uncle to see a cousin play Gaelic football in Dublin&#39;s Croke Park, a massive stadium. The game was on national TV, but watching it live was amazing.&lt;/p&gt;
+&lt;h1 id=&quot;week-3&quot;&gt;Week 3 &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/ireland2022/#week-3&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Picked up La Twin and headed down to south west County Kerry, to the old home of La Granny. It&#39;s one of my favorite places on earth. It&#39;s a cottage, with some pastures (currently housing two horses) in front of it, and then Ireland ends. Off the coast you can see the Skellig Islands. You can barely see your neighbors house, and it&#39;s a good 20 minutes of driving on single lane roads to get to a place to buy milk/coffee/newspaper. A high-end restaurant/cafe opened up nearby, it&#39;s about an hour&#39;s walk along cliff roads to get to it. Amazing. We went out for our anniversary there and was able to have late night drinks with the couple who own it. Super fun night.&lt;/p&gt;
+&lt;p&gt;This was a work week for me, so it was back to co-working offices. Ireland has invested a bunch of resources to attract folks like me; remote workers who want/can spend extended time in the country so long as they have a place to work. It makes sense because visitors tend to spend lots of money, I assume, but it felt weird working in a completely empty rural office. I got the feel for what it might be like to live there. Commuting on small roads, dodging the occasional on coming car or cyclist (yikes). Listening to Irish morning radio. Becoming a regular at the local shop where I seek yet more caffeine and sweets. I liked it but it was a bit lonely. We couldn&#39;t be arsed to cook at night so often we went to the pub or a world class restaurant, because why not?&lt;/p&gt;
+&lt;h1 id=&quot;week-4&quot;&gt;Week 4 &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/ireland2022/#week-4&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Last week of the trip. A mix of looking forward to returning to the creature comforts of home, and knowing that you&#39;ll probably not be back here for a while. We tried to squeeze as much as we could in. Hikes on the Gap of Dunloe and Torc Mountain (the latter with the kids). Hit up an aqua park, which the kids love. More nights at the pub and Herself got to meet Declan finally. La Twin took us to a whiskey bar that was right up my alley. I took the kids to the horrible summer amusement park and tried not to get ripped off by too many ride attendants. It was tough to leave La Twin, the kids really enjoyed the time with her.&lt;/p&gt;
+&lt;p&gt;The flight back was uneventful, which was rare for that time frame. Most the larger euro airports were plagued by lines and delays. A couple weeks before the BIL flew out of Dublin. They arrived four hours early, the plan was delayed by one hour, and they still &lt;em&gt;bareley&lt;/em&gt; made the flight. Nuts. I was able to split from my fam in Boston and go to a dear co-workers retirement party, which meant a lot to me. I managed to stay awake for 30ish hours, fueled by good company and drink.&lt;/p&gt;
+&lt;p&gt;I don&#39;t know how often we will be able to get back, but goodness do we feel blessed to be able to have and give the experience to our kids.&lt;/p&gt;
+&lt;p&gt;Sláinte&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>WeekNotes - June 13, 2022</title>
+		<link href="https://jeffcoburn.com/posts/weeknotes/06-13-2022/"/>
+		<updated>2022-06-13T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/weeknotes/06-13-2022/</id>
+		<content type="html">&lt;p&gt;Team Coburn is temporarily located in County Kerry, Ireland. Thanks to some generous drop-offs and and pick-ups, the travel was pretty easy. Still some sleep issues, bodies despise the concept of timezones. So far we&#39;ve had very typical Irish weather. It&#39;s cloudy and always on the verge of raining without actually raining.&lt;/p&gt;
+&lt;p&gt;I&#39;m of two minds over the pros/cons of working 5 hours ahead of everyone. On one hand, I love a few hours of uninterrupted work before folks come online stateside. But I do struggle shutting it down at the end of the day, because there are so many open threads that aren&#39;t closed when I should be ending work.&lt;/p&gt;
+&lt;p&gt;It&#39;s nice traveling and &amp;quot;living&amp;quot; in a new place. It&#39;s one thing to be a tourist and see the sites, it&#39;s another to commute to a workplace, find your preferred coffee place and make friends with your temporary co-workers.&lt;/p&gt;
+&lt;p&gt;I thought maybe being abroad might give a bit of reprieve from the sense that the world is collapsing, but no. The news is bad everywhere.&lt;/p&gt;
+&lt;h2 id=&quot;watched&quot;&gt;watched &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/06-13-2022/#watched&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Formula 1&lt;/li&gt;
+&lt;li&gt;NBA Finals (Celtics are down 3-2 but I really think they are capable of winning this thing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;read&quot;&gt;Read &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/06-13-2022/#read&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;?????&lt;/p&gt;
+&lt;h2 id=&quot;did&quot;&gt;Did &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/06-13-2022/#did&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Traveled 5 timezones with young children&lt;/li&gt;
+&lt;li&gt;Started working out of &lt;a href=&quot;https://hqkerry.com/locations/hq-tralee/&quot;&gt;HQ-Tralee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>WeekNotes - June 6, 2022</title>
+		<link href="https://jeffcoburn.com/posts/weeknotes/06-06-2022/"/>
+		<updated>2022-06-06T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/weeknotes/06-06-2022/</id>
+		<content type="html">&lt;p&gt;Been a minute. This week is all about finishing up the last week of school for the kiddos and getting ready to go to Ireland for the first half of the summer. We are so fortunate to have this opportunity. Lou&#39;s folks (in theory) split time between here (US) and there (IRE), so we have access to a condo and a car. Lou takes all of her vacation time in one go, and I work half the time. I&#39;ve had really good luck at co-working places; meeting folks and forging friendships, in the past. I know the kids won&#39;t/don&#39;t appreciate it now, but I&#39;m sure they will appreciate the memories.&lt;/p&gt;
+&lt;p&gt;Getting ready for an extended international trip is a bit stressful. Duh.&lt;/p&gt;
+&lt;h2 id=&quot;did&quot;&gt;Did &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/06-06-2022/#did&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I played my one-ish round of golf for the year and sucked less than usual.&lt;/li&gt;
+&lt;li&gt;Have enjoyed the Celtics play-off (championship?) run. Ronan has even started to care a little bit. As a life-long fan, and avid watcher of this current Celtics core, it&#39;s hard for me to grasp that we have finally arrived at a championship caliber team. Do you like how I said &amp;quot;we&amp;quot;? When you&#39;ve watched as many games and typed as many emails to your hometown friends about last nights game as I have, you get to say &amp;quot;we&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Trying to do some actually programming and problem solving in React. As somebody who accidentally became a frontend developer, React feels a little too close to computer science.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;watched&quot;&gt;Watched &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/06-06-2022/#watched&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lou and I watched &lt;em&gt;Severence&lt;/em&gt; and probably have the same opinion as most folks. Little slow with a big pay-off.&lt;/li&gt;
+&lt;li&gt;Watched the animated series &lt;em&gt;Arcane&lt;/em&gt; based on &lt;a href=&quot;https://marcamos.com/&quot;&gt;Marc&#39;s&lt;/a&gt; recommendation. Super cool animation style and surprisingly emotional.&lt;/li&gt;
+&lt;li&gt;Watched Marvel&#39;s &lt;em&gt;Shang-Chi and the Legend of the Ten Rings&lt;/em&gt; with the kiddos and thought that was pretty fun. Nice to see more diversity in super hero movies.&lt;/li&gt;
+&lt;li&gt;We started Watching &lt;em&gt;Kenobi&lt;/em&gt; as a family but Wes really hates the constant flashbacks to Anakin&#39;s burnt up body. I tend to agree with him. We get it Ben, it was a real bummer, man.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;read&quot;&gt;Read &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/06-06-2022/#read&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Finished Martha Wells&#39; &lt;em&gt;Network Effect: A Murderbot Novel&lt;/em&gt; . I&#39;ve read all the novellas up to this full novel. Really fun reads.&lt;/li&gt;
+&lt;li&gt;Getting near finishing Neal Stephenson&#39;s &lt;em&gt;Termination Shock&lt;/em&gt;. It is about near-future climate change. Very enlightening, but given Neal&#39;s ability to predict the future, it&#39;s sort of shit-your-pants terrifying.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>WeekNotes - Dec 28, 2021</title>
+		<link href="https://jeffcoburn.com/posts/weeknotes/01-02-2022/"/>
+		<updated>2022-01-02T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/weeknotes/01-02-2022/</id>
+		<content type="html">&lt;p&gt;Just finishing up The Most Wonderful Time of the Year and it&#39;s carnage all around. We had a few visitors and one of them tested positive for Covid the next day. Her family had a fairly comprehensive outbreak, but somehow we seemed to have dodged a bullet (we are pfizer vaxed and moderna boosted, if anybody thinks that is the secret sauce). But, we had to spend the majority of our time quarantined because we didn&#39;t want to risk getting anybody else sick. Two screen-obsessed kids, terrible weather, and no Yuletide cheer means we head into the new year the opposite of whatever &amp;quot;ready to kill it&amp;quot; means.&lt;/p&gt;
+&lt;p&gt;Judging by the headlines it seems we should get used to being at home. Goodie.&lt;/p&gt;
+&lt;h3 id=&quot;did&quot;&gt;did &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/01-02-2022/#did&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Got ruby, rbenv, jekyll, node, npm, and 11ty all playing nice on the new M1.&lt;/li&gt;
+&lt;li&gt;Actually got my site running.&lt;/li&gt;
+&lt;li&gt;Watched my kiddos do some pretty complex lego builds. Color me impressed.&lt;/li&gt;
+&lt;li&gt;Rearranged our living room for the 39th time. For some reason, setting our living room up into something that works for everyone is our Sagrada Família (in that it takes two centuries to finish and hundreds of people died in the making).&lt;/li&gt;
+&lt;li&gt;Did some dog-sitting. Dogs are the best.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;watched&quot;&gt;watched &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/01-02-2022/#watched&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Matrix Resurrections&lt;/em&gt;. I really like the first half the movie. It was pretty much a remix of The Matrix, but well done.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Spider-Man: Far from Home&lt;/em&gt;. I Liked it. Lots or easter eggs (daredevil!?) and callbacks. They make them so emotional now, I feel bad for my kids who just want to see Spider-Man flip kick bad guys in the face but have to watch bad things happen to good people x 100.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Don&#39;t Look Up&lt;/em&gt;. One of those movies where the trailer was probably better. Seemed like it was going for Doctor Strange Love for the modern age.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;read&quot;&gt;read &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/01-02-2022/#read&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Finished &lt;em&gt;Freedom™&lt;/em&gt; by Daniel Suarez. This is the follow up to &lt;em&gt;Daemon&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Started &lt;em&gt;Snow Crash&lt;/em&gt;. I remember this being very important to me in my early 20&#39;s, and I&#39;ve told countless people how great a book it is. The other day Herself asked me what it was about and I couldn&#39;t remember. Hopefully it is as good as I remember.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2021</title>
+		<link href="https://jeffcoburn.com/posts/2021/"/>
+		<updated>2022-01-01T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2021/</id>
+		<content type="html">&lt;hr /&gt;
+I&#39;ve had worse years (actually just one, and it was last year), but I&#39;m glad to be done with this year.  I&#39;m sure my year was roughly like yours. I wish I was somebody who achieved crazy goals during all this time at home, but I&#39;m more just trying to help keep all of our family&#39;s heads above water. I like the fact that I can be more present with my family. I do miss going to Boston and seeing my work chums. Consistent fitness remains illusive, and some of my larger goals are still years off schedule.
+&lt;p&gt;Here are some highlights, in no particular order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Restarted my personal website(RIP jetsetbingo)&lt;/li&gt;
+&lt;li&gt;Kids went back to school&lt;/li&gt;
+&lt;li&gt;Sorta kinda got better at living day-to-day in a pandemic&lt;/li&gt;
+&lt;li&gt;Paid off the other car&lt;/li&gt;
+&lt;li&gt;tore out the old busted gas fireplace insert (my FIL drywalled like an ace)&lt;/li&gt;
+&lt;li&gt;Got a new mountain bike and &lt;em&gt;sent it&lt;/em&gt; (with the appropriate caution of a mid 40&#39;s dad)&lt;/li&gt;
+&lt;li&gt;Got the kids started with skiing and they &lt;em&gt;sent it&lt;/em&gt; (did a bit more myself)&lt;/li&gt;
+&lt;li&gt;Hit a few pub runs and did a 5k&lt;/li&gt;
+&lt;li&gt;Had some heat pumps (mini splits to some) installed - they are great, make the house much warmer&lt;/li&gt;
+&lt;li&gt;Saw my folks and travelled to VA to see my sister.&lt;/li&gt;
+&lt;li&gt;Family trip to VT and Niagara Falls.&lt;/li&gt;
+&lt;li&gt;Took the kids to NYC for the first time. They were entertained for about 45 minutes.&lt;/li&gt;
+&lt;li&gt;Gave the kids decent pandemic birthdays (we are getting better at this)&lt;/li&gt;
+&lt;li&gt;Travelled to Kingdom Trails/VT for Noel&#39;s annual birthday MTB trip&lt;/li&gt;
+&lt;li&gt;Started drinking more bourbon (I guess that is a highlight, I may look back and regret this)&lt;/li&gt;
+&lt;li&gt;Got W more help with his disability/ability issues.&lt;/li&gt;
+&lt;li&gt;Started coaching R&#39;s hoops team (I love basketball and love helping kids get better at it)&lt;/li&gt;
+&lt;li&gt;Got a new dev machine up and running (got 7 years out of my old MBP)&lt;/li&gt;
+&lt;li&gt;Continued to read a decent amount of books per year (I was previously not an avid reader)&lt;/li&gt;
+&lt;li&gt;Continued to connect with a nice peer group of devs via our slack group&lt;/li&gt;
+&lt;li&gt;Played &lt;em&gt;a lot&lt;/em&gt; of fortnite with nice peer group of devs (and by myself).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;goals-for-2022&quot;&gt;Goals for 2022 &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/2021/#goals-for-2022&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Find some sort of fitness I enjoy. I&#39;ve never just worked out for it&#39;s own sake. I should try and find an activity I like doing. I&#39;m sure this will go great&lt;/li&gt;
+&lt;li&gt;Grow this site: I want to document things I do, learn, and read&lt;/li&gt;
+&lt;li&gt;Find ways to relax that won&#39;t destroy my mind/body&lt;/li&gt;
+&lt;li&gt;Renew some expired certs&lt;/li&gt;
+&lt;li&gt;Do some camping&lt;/li&gt;
+&lt;li&gt;Send it on my bike/skis&lt;/li&gt;
+&lt;li&gt;Head back to Ireland for a spell?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here&#39;s hoping 2022 isn&#39;t another bag of face-chewing rats!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TIL - Get Nunjuck files to use HTML syntax highlighting in VSCode</title>
+		<link href="https://jeffcoburn.com/posts/til/njk-in-vscode/"/>
+		<updated>2021-12-30T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/til/njk-in-vscode/</id>
+		<content type="html">&lt;p&gt;Out of the box VSCode doesn&#39;t use syntax highlighting on nunjucks files. To fix that&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open up settings&lt;/li&gt;
+&lt;li&gt;Search for &amp;quot;file associations&amp;quot;&lt;/li&gt;
+&lt;li&gt;Click &amp;quot;add item&amp;quot;&lt;/li&gt;
+&lt;li&gt;Under &#39;item&#39; uses &#39;*.njk&#39; and under &#39;value&#39; use &#39;html&#39;&lt;/li&gt;
+&lt;li&gt;???&lt;/li&gt;
+&lt;li&gt;Profit&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>WeekNotes - June 1, 2021</title>
+		<link href="https://jeffcoburn.com/posts/weeknotes/06-01-2021/"/>
+		<updated>2021-06-01T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/weeknotes/06-01-2021/</id>
+		<content type="html">&lt;h3 id=&quot;read&quot;&gt;Read &lt;a class=&quot;direct-link&quot; href=&quot;https://jeffcoburn.com/posts/weeknotes/06-01-2021/#read&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Finished reading &lt;a href=&quot;https://www.goodreads.com/en/book/show/54211065-2034&quot;&gt;&lt;em&gt;2034: A Novel of the Next World War&lt;/em&gt;&lt;br /&gt;
+&lt;/a&gt;. A nice blend of what could happen in the future sprinkled in with how this has already happened many times over in history. If you have anxiety about &amp;quot;current affairs&amp;quot; probably give it a miss.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finished Reading &lt;a href=&quot;https://www.goodreads.com/book/show/44767458-dune&quot;&gt;&lt;em&gt;Dune&lt;/em&gt;&lt;/a&gt;. I saw the movie trailer and felt like this is one of those books I should have read, so I did. Like all good sci-fi, this is pretty timeless. Definitely, not written with any female perspective whatsoever but not sure you can expect much from something written in 1965. I don&#39;t plan to read the rest of the series.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://postlight.com/insights/best-of-today-i-learned-in-2021-so-far?utm_source=Postlight+Newsletter&amp;amp;utm_campaign=6e6fab17ea-POSTLIGHT_NEWSLETTER_5_5_2021_16_53_COPY_01&amp;amp;utm_medium=email&amp;amp;utm_term=0_e2a2d77b7f-6e6fab17ea-177179785&quot;&gt;Today I leaned -Postlight &lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>WeekNotes - May 24, 2021</title>
+		<link href="https://jeffcoburn.com/posts/weeknotes/05-24-2021/"/>
+		<updated>2021-05-24T00:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/weeknotes/05-24-2021/</id>
+		<content type="html">&lt;p&gt;Like &lt;a href=&quot;https://alicebartlett.co.uk/blog/weaknotes&quot;&gt;Alice&lt;/a&gt;, &lt;a href=&quot;https://danmall.com/weeknotes/2021-05-23/&quot;&gt;Dan&lt;/a&gt;, and &lt;a href=&quot;https://www.builtwith.coffee/blog/1&quot;&gt;Joe&lt;/a&gt;, I&#39;m would like to make this a thing.&lt;/p&gt;
+&lt;p&gt;###[Computers]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Built a &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;11ty&lt;/a&gt; site with a &lt;a href=&quot;https://forestry.io/&quot;&gt;Forestry.io&lt;/a&gt; backend. So far I&#39;m happy with the improvements from using &lt;a href=&quot;https://www.netlifycms.org/&quot;&gt;Netlify CMS&lt;/a&gt; (not &lt;a href=&quot;https://www.netlify.com/&quot;&gt;netlify&lt;/a&gt; the deployment service, which is one of the most brilliant products released in the last decade. Creating a custom content type, and adding an editor was pretty painless. I&#39;ve been using Jekyll for almost a decade, but keeping a ruby stack running along side my javascript stuff has gotten to be too much of an ass-ache.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Watched some of &lt;a href=&quot;https://mybuild.microsoft.com/home&quot;&gt;Build 2021&lt;/a&gt;, Microsoft&#39;s developer conference. We are, of course, very post-the-time-things-made-any-sense, but it still feels weird the Microsoft is eating everybody&#39;s lunch when it comes to supporting a development community.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tried to build something that seems doable in &lt;a href=&quot;https://public.tableau.com/s/&quot;&gt;Tableau Public&lt;/a&gt;, but so far it&#39;s Fail City, might take another shot at it this week.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###[Home Life]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Getting W some home with his social/emotional skills. This has been an unkind year for him.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Planted some grass. I hate landscaping and abhor competing with neighbors, but my yards is just a pile of dirt where chipmunks dwell. I went with with a hardy grass that has clover mixed in. Clover is not in style this century, but it appeals to me in that: it grows, it&#39;s green, and when you mow it, the clippings are nitrate (food) for the grass it is mixed in with.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;###[Consumed]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Finished season 2 of &amp;quot;For All Mankind.&amp;quot; Herself and I are both really into it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Watch the first few episodes of Season 2 of Mythic Quest. I really really loved the two eps they did while in quarantine, but this season is really drilling down on how flawed the characters are. Much more of a &amp;quot;Always Sunny&amp;quot; vibe, which doesn&#39;t really fit with what I want right now.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Watched &amp;quot;Master of None&amp;quot; Season 3. Very very different from the first two seasons. It was well done, but removing the Dev character was pretty predictable way to handle Aziz&#39;s own fall from grace.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+</feed>
