@@ -2,7 +2,6 @@ backend:
   name: github
   repo: coburnicus/jeffcoburn.com
 media_folder: "img/uploads"
-
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "posts" # Used in the UI
