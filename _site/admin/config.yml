@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: coburnicus/jeffcoburn.com
 media_folder: "img/uploads"
 
