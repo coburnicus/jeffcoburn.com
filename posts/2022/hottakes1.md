@@ -2,7 +2,6 @@
 title: Hot Takes No. 1
 date: 2022-11-07
 tags:
-
 layout: layouts/post.njk
 ---
 <ol>
