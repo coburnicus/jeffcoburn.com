@@ -16,7 +16,7 @@ eleventyNavigation:
 **Keyboard(s)** - I switch keyboards in and out to keep things spicy and save my wrists from RSI. This is my current fleet:
   
   - a Nuphy Air 75 v2 with Brown Gateron Low Profile 2.0 switches. I find it very satisfying to type on. I usually have a wrist rest with it. I would call this my favorite/primary keyboard
-  - ~~I have a [WASD CODE](https://www.wasdkeyboards.com/code-v3-87-key-mechanical-keyboard-cherry-mx-blue.html)(RIP 2018-2024)~~. 
+  - ~~I have a [WASD CODE](https://www.wasdkeyboards.com/code-v3-87-key-mechanical-keyboard-cherry-mx-blue.html)~~ (RIP 2018-2024). 
   - A Microsoft Ergonomic Keyboard (wired). It's fine, but a little mushy for my tastes. It's discontinued so good luck finding it for a reasonable price.
   - A couple Apple Magic Keyboards (mini and full size). These are nice on the wrists because they are so flat, but I can feel my fingers getting numb from pounding/bottoming-out the keys. I assume the only fix is more therapy.
 
