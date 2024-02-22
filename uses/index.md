@@ -21,11 +21,11 @@ eleventyNavigation:
   - A couple Apple Magic Keyboards (mini and full size). These are nice on the wrists because they are so flat, but I can feel my fingers getting numb from pounding/bottoming-out the keys. I assume the only fix is more therapy.
 
 
-**Mouse/Trackpad**I have adopted the dual pointer lifestyle. On the right side of the keyboard a [Logitech MX Master 3 for Mac](https://www.logitech.com/en-kw/products/mice/mx-master-3-mac-wireless-mouse.910-005696.html) that I swiped from herself after she moved up to a verticle style mouse. It does everything I ask it to. On the left side I have a Apple Magic Trackpad. The hope is that I will stave off RSI a little longer by using both hands, but I really only seem to use the righthand mouse.
+**Mouse/Trackpad** I have adopted the dual pointer lifestyle. On the right side of the keyboard a [Logitech MX Master 3 for Mac](https://www.logitech.com/en-kw/products/mice/mx-master-3-mac-wireless-mouse.910-005696.html) that I swiped from herself after she moved up to a verticle style mouse. It does everything I ask it to. On the left side I have a Apple Magic Trackpad. The hope is that I will stave off RSI a little longer by using both hands, but I really only seem to use the righthand mouse.
 
-**Monitor** - I have a couple Dell U2713h that I've never loved and hope they die soon so I can ask for something +4k to spare my old eyes. They don't play nice with my new MBP (or vice versa).
+**Monitor** - I have a couple Dell U2713h that I've never loved and hope they die soon so I can ask for something +4k to spare my old eyes. They don't play very nice with my new MBP (or vice versa).
 
-**Local Backup** - I used Time Machine to backup to a [My Passport Ultra](https://www.westerndigital.com/products/portable-drives/wd-my-passport-ultra-usb-c-hdd?sku=WDBC3C0010BSL-WESN). These things seem to die more often than they should. This one is solid state, so I'm hoping the lack of moving parts might keep this thing in the mix longer.
+**Local Backup** - I use Time Machine to backup to a [My Passport Ultra](https://www.westerndigital.com/products/portable-drives/wd-my-passport-ultra-usb-c-hdd?sku=WDBC3C0010BSL-WESN). These things seem to die more often than they should. This one is solid state, so I'm hoping the lack of moving parts might keep this thing in the mix longer.
 
 **Dock** - Everything is plugged into [CalDigit TS4 Thunderbolt 4 Dock](https://www.caldigit.com/thunderbolt-station-4/). I like this thing because it allows me to have one USB-C cable go to my MacBook and that's it. I can then have multiple monitors, backups, chargers, speakers and cables/connectors all ready to go.
 
@@ -35,7 +35,7 @@ eleventyNavigation:
 
 **Laptop Stand** - I have a [Roost](https://www.therooststand.com/) that I very much enjoy. It folds up nice for portability and it keeps the laptop up fairly high. Pricy but if you use it 8 hours a day...
 
-**Headphones** - I have some [Bose Q35](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black) over my ears most of the day. Again, overpriced (I didn't pay for them), but if you work in a open office (or at home during a pandemic) and are easily distracted, can you put on price on them? I wish the ear-pads were tougher.
+**Headphones** - I have some [Bose Q35](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black) over my ears most of the day. Again, overpriced (I didn't pay for them), but if you work in a open office (or at home during a pandemic) and are easily distracted, can you put on price on them? I wish the ear-pads were tougher, I've had to replace them.
 
 **Phone** - I currently have a iPhone15 Pro that I will keep for 3 or 4 years and then get whatever the current model is. I am kind of indifferent to a phone as long as it works. A good camera is nice, but I don't know what to do with it, so.
 
