@@ -13,13 +13,21 @@ eleventyNavigation:
 ## HARDWARE
 **Computer** - I have a honking M1-PRO 16" MacBook Pro with 32gb RAM. It is waaaay more than I need to fiddle with text, but I make my computers last (got 7 years off the previous MPB) so I load them up for the long haul. Plus I might try doing a bit of video/pods in the next year (narrator: He would not). I've had Windows and Linux but I prefer Apple stuff for longevity and some basic set-it-and-forget-it stuff.
 
-**Keyboard** - I have a [WASD CODE](https://www.wasdkeyboards.com/code-v3-87-key-mechanical-keyboard-cherry-mx-blue.html) clicky/mechanical keyboard. I like it well enough, but it's not a religious experience for me as it is for some. I have MX Cherry Brown (softer, quieter - I used to work in a shared office you monsters).
+**Keyboard(s)** - I switch keyboards in and out to keep things spicy and save my wrists from RSI. This is my current fleet:
+  
+  - a Nuphy Air 75 v2 with Brown Gateron Low Profile 2.0 switches. I find it very satisfying to type on. I usually have a wrist rest with it. I would call this my favorite/primary keyboard
+  - ~~I have a [WASD CODE](https://www.wasdkeyboards.com/code-v3-87-key-mechanical-keyboard-cherry-mx-blue.html)(RIP 2018-2024)~~. 
+  - A Microsoft Ergonomic Keyboard (wired). It's fine, but a little mushy for my tastes. It's discontinued so good luck finding it for a reasonable price.
+  - A couple Apple Magic Keyboards (mini and full size). These are nice on the wrists because they are so flat, but I can feel my fingers getting numb from pounding/bottoming-out the keys. I assume the only fix is more therapy.
 
-~~**Trackpad** - I have an Apple Magic Trackpad. I don't notice it and I don't seem to get wrist pains, which is all I ask of it.~~
 
-I have moved over to a [Logitech MX Master 3 for Mac](https://www.logitech.com/en-kw/products/mice/mx-master-3-mac-wireless-mouse.910-005696.html) that I swiped from herself after she moved up to a verticle style mouse. It does everything I ask it to.
+**Mouse/Trackpad**I have adopted the dual pointer lifestyle. On the right side of the keyboard a [Logitech MX Master 3 for Mac](https://www.logitech.com/en-kw/products/mice/mx-master-3-mac-wireless-mouse.910-005696.html) that I swiped from herself after she moved up to a verticle style mouse. It does everything I ask it to. On the left side I have a Apple Magic Trackpad. The hope is that I will stave off RSI a little longer by using both hands, but I really only seem to use the righthand mouse.
 
 **Monitor** - I have a couple Dell U2713h that I've never loved and hope they die soon so I can ask for something +4k to spare my old eyes. They don't play nice with my new MBP (or vice versa).
+
+**Local Backup** - I used Time Machine to backup to a [My Passport Ultra](https://www.westerndigital.com/products/portable-drives/wd-my-passport-ultra-usb-c-hdd?sku=WDBC3C0010BSL-WESN). These things seem to die more often than they should. This one is solid state, so I'm hoping the lack of moving parts might keep this thing in the mix longer.
+
+**Dock** - Everything is plugged into [CalDigit TS4 Thunderbolt 4 Dock](https://www.caldigit.com/thunderbolt-station-4/). I like this thing because it allows me to have one USB-C cable go to my MacBook and that's it. I can then have multiple monitors, backups, chargers, speakers and cables/connectors all ready to go.
 
 **Desk** - I have a simple wood desktop from Ikea bolted to some motorized sit/stand desk. I wish I could say I stood a lot.
 
