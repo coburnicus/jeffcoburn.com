@@ -5,12 +5,22 @@
 	
 	<link href="https://jeffcoburn.com/feed/feed.xml" rel="self"/>
 	<link href="https://jeffcoburn.com/"/>
-	<updated>2023-02-07T00:00:00Z</updated>
+	<updated>2024-02-24T05:00:00Z</updated>
 	<id>https://jeffcoburn.com</id>
 	<author>
 		<name>Jeff Coburn</name>
 		<email>jeffcoburn@duck.com</email>
 	</author>
+	
+	<entry>
+		<title>Apple Blocking PWAs on iOS is Not New</title>
+		<link href="https://jeffcoburn.com/posts/2024/2024-02-24-apple-blocking-pwas-on-ios-is-not-new/"/>
+		<updated>2024-02-24T05:00:00Z</updated>
+		<id>https://jeffcoburn.com/posts/2024/2024-02-24-apple-blocking-pwas-on-ios-is-not-new/</id>
+		<content type="html">&lt;p&gt;You might have read about Apple&#39;s &lt;a href=&quot;https://www.engadget.com/apple-confirms-home-screen-web-apps-will-no-longer-work-on-european-ios-devices-112527560.html#:~:text=It%20blames%20the%20EU&#39;s%20demand%20to%20support%20non%2DWebKit%20browsers.&amp;amp;text=Apple%20has%20explained%20why%20it&#39;s,recent%20iOS%2017.4%20beta%20releases.&quot;&gt;recent skullduggery&lt;/a&gt; with regards to blocking PWAs (&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps&quot;&gt;Progress Web Apps&lt;/a&gt;) in the EU, in response to the &lt;a href=&quot;https://www.nytimes.com/2024/01/25/technology/apple-app-store-europe.html&quot;&gt;EU forcing apple to relinquish&lt;/a&gt; some control over their walled garden. But, near as I can tell, Apple has always, selectively, blocked PWAs. For example, if you don&#39;t love the YouTube app, and perhaps want to run it as a PWA (maybe you might use your own &lt;a href=&quot;https://apps.apple.com/af/app/vinegar-tube-cleaner/id1591303229&quot;&gt;tracker/ad blocking&lt;/a&gt; stuff), you cannot. You can save it to your home screen, but it will not open as PWA; instead opening as a tab inside of safari. Youtube is a PWA, according to my lighthouse test result (see image), so it would seem Apple is choosing not to honor it&#39;s status as PWA. I have not seen a reason as to why this would happen, but I would have to assume it has something to do with &lt;a href=&quot;https://www.theverge.com/2023/10/26/23933206/google-apple-search-deal-safari-18-billion&quot;&gt;Apple&#39;s business relationship to google&lt;/a&gt;, and nothing to do with any valid technical reasons against it. I would love to be wrong about this.&lt;/p&gt;
+&lt;p&gt;To be clear, this is stupid and rotten and makes me feel trepidatious about my very Apple-centric tech stack.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>TIL - How I Fixed Endless Sharp Module Errors in Gatsby</title>

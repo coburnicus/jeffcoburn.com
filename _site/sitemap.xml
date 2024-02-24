@@ -37,6 +37,21 @@
   </url>
   
   <url>
+    <loc>https://jeffcoburn.com/tags/yearnotes/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/pwas/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/uses/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jeffcoburn.com/tags/books/</loc>
     <lastmod>2021-12-30</lastmod>
   </url>
@@ -52,27 +67,12 @@
   </url>
   
   <url>
-    <loc>https://jeffcoburn.com/tags/gatsby/</loc>
-    <lastmod>2021-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/yearnotes/</loc>
-    <lastmod>2021-12-30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jeffcoburn.com/tags/weeknotes/</loc>
     <lastmod>2021-12-30</lastmod>
   </url>
   
   <url>
-    <loc>https://jeffcoburn.com/tags/pwas/</loc>
-    <lastmod>2021-12-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/uses/</loc>
+    <loc>https://jeffcoburn.com/tags/gatsby/</loc>
     <lastmod>2021-12-30</lastmod>
   </url>
   
@@ -172,7 +172,12 @@
   </url>
   
   <url>
+    <loc>https://jeffcoburn.com/posts/2024/2024-02-24-apple-blocking-pwas-on-ios-is-not-new/</loc>
+    <lastmod>2024-02-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jeffcoburn.com/uses/</loc>
-    <lastmod>2023-11-28</lastmod>
+    <lastmod>2024-02-24</lastmod>
   </url>
 </urlset>
