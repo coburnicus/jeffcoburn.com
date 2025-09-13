@@ -2,7 +2,7 @@
   "title": "Adventures in Jeffland",
   "url": "https://jeffcoburn.com/",
   "language": "en",
-  //"description": "Stuff that is either about me or written by me.",
+  "description": "Stuff that is either about me or written by me.",
   "feed": {
     "subtitle": "It's like git commit messages for my life.",
     "filename": "feed.xml",
