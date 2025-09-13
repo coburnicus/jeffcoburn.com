@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirty Talk Decision Tree</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a1a2e; /* Dark purple/blue */
+            color: #e0e0e0;
+        }
+        .card {
+            background-color: #2e2e4a;
+            border: 1px solid #4a4a6e;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .btn-primary {
+            background-color: #ff69b4; /* Hot pink */
+            border-color: #ff69b4;
+            transition: background-color 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: #ff85c1;
+        }
+        .btn-outline {
+            color: #ff69b4;
+            border-color: #ff69b4;
+            background-color: transparent;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .btn-outline:hover {
+            background-color: #ff69b4;
+            color: #1a1a2e;
+        }
+        .message-box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #3e3e6e;
+            color: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            z-index: 1000;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-4">
+
+    <main class="w-full max-w-2xl text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-center">Dirty Talk Flow Chart</h1>
+        <p class="text-lg md:text-xl text-center text-gray-400 mb-8">Navigate through the tree to find the perfect words to ignite your passions.</p>
+        
+        <div id="decisionTreeContainer" class="flex flex-col items-center w-full">
+            <!-- Content will be rendered here by JavaScript -->
+        </div>
+
+        <button id="resetButton" class="mt-8 px-6 py-3 rounded-full text-lg font-semibold btn-outline hover:bg-opacity-80 transition-all duration-300" style="display: none;">
+            <i class="bi bi-arrow-clockwise mr-2"></i>Start Over
+        </button>
+
+        <!-- Custom Message Box for alerts -->
+        <div id="messageBox" class="message-box rounded-xl p-8">
+            <p id="messageText" class="text-xl font-medium"></p>
+            <button id="closeMessageBox" class="mt-4 px-4 py-2 rounded-lg btn-primary">OK</button>
+        </div>
+
+    </main>
+    
+    <script>
+        // Custom message box function to replace alert()
+        function showMessage(text) {
+            const messageBox = document.getElementById('messageBox');
+            const messageText = document.getElementById('messageText');
+            messageText.innerText = text;
+            messageBox.style.display = 'block';
+        }
+
+        document.getElementById('closeMessageBox').addEventListener('click', () => {
+            document.getElementById('messageBox').style.display = 'none';
+        });
+
+        // The decision tree data structure
+        const tree = {
+            'start': {
+                text: "To ensure a comfortable and exciting experience for everyone, let's start with a foundation of consent and comfort. Are you both on the same page and ready to explore new forms of intimacy?",
+                options: [
+                    { text: "Yes, we're ready! Let's go.", nextId: 'initial_path' },
+                    { text: "We need to talk about it first.", nextId: 'outcome_consent' }
+                ]
+            },
+            'initial_path': {
+                text: "Where would you like to focus?",
+                options: [
+                    { text: "Romantic & Loving", nextId: 'path_romantic' },
+                    { text: "Direct & Passionate", nextId: 'path_direct' },
+                    { text: "Kinky & Playful", nextId: 'path_kinky' }
+                ]
+            },
+            'path_romantic': {
+                text: "Excellent. Let's explore some loving and romantic phrases. What feels right for the moment?",
+                options: [
+                    { text: "Sweet compliments", nextId: 'outcome_romantic_1' },
+                    { text: "Expressing desire", nextId: 'outcome_romantic_2' }
+                ]
+            },
+            'path_direct': {
+                text: "Straight to the point! What kind of feeling are you aiming for?",
+                options: [
+                    { text: "Take charge", nextId: 'outcome_direct_1' },
+                    { text: "Describing what you want to do", nextId: 'outcome_direct_2' }
+                ]
+            },
+            'path_kinky': {
+                text: "Fun and frisky! Before we go down this road, a quick check-in: Is this a 'good girl' or a 'bad girl' kind of mood?",
+                options: [
+                    { text: "Good girl", nextId: 'path_good_girl' },
+                    { text: "Bad girl", nextId: 'path_bad_girl' }
+                ]
+            },
+            'path_good_girl': {
+                text: "Aww, such a good girl. What would you like to hear?",
+                options: [
+                    { text: "Praise and validation", nextId: 'outcome_good_girl_1' },
+                    { text: "Instructions and direction", nextId: 'outcome_good_girl_2' }
+                ]
+            },
+            'path_bad_girl': {
+                text: "Ooh, a bad girl, I see. What kind of mischief is on your mind?",
+                options: [
+                    { text: "Teasing and taunts", nextId: 'outcome_bad_girl_1' },
+                    { text: "Demands and commands", nextId: 'outcome_bad_girl_2' }
+                ]
+            },
+            // Outcomes
+            'outcome_consent': {
+                text: "Remember, the most important part of dirty talk is making sure it's a mutual, fun experience. Start with a direct conversation about boundaries, desires, and what you both find exciting. Communication is key! The best phrases are those that come from a place of shared excitement.",
+                isOutcome: true
+            },
+            'outcome_romantic_1': {
+                text: "Try something like: 'You are so beautiful, the way you look at me just drives me wild.' or 'I can't believe how perfect you are, I want you so much.'",
+                isOutcome: true
+            },
+            'outcome_romantic_2': {
+                text: "Try something like: 'I want to feel every inch of you right now.' or 'I can't stop thinking about what I'm going to do to you later.'",
+                isOutcome: true
+            },
+            'outcome_direct_1': {
+                text: "Try something like: 'Look at me when I'm inside you.' or 'I'm going to own you tonight.'",
+                isOutcome: true
+            },
+            'outcome_direct_2': {
+                text: "Try something like: 'I want to taste you all over.' or 'I'm going to make you scream my name.'",
+                isOutcome: true
+            },
+            'outcome_good_girl_1': {
+                text: "Try something like: 'You're such a good girl for me, aren't you?' or 'I love how obedient you are.'",
+                isOutcome: true
+            },
+            'outcome_good_girl_2': {
+                text: "Try something like: 'Touch yourself for me.' or 'Come here and get on your knees, like a good girl.'",
+                isOutcome: true
+            },
+            'outcome_bad_girl_1': {
+                text: "Try something like: 'You've been a very bad girl, haven't you?' or 'I know you want to misbehave for me.'",
+                isOutcome: true
+            },
+            'outcome_bad_girl_2': {
+                text: "Try something like: 'I told you to be quiet, but you're not going to listen, are you?' or 'Get down on the floor and tell me what you've done wrong.'",
+                isOutcome: true
+            }
+        };
+
+        const treeContainer = document.getElementById('decisionTreeContainer');
+        const resetButton = document.getElementById('resetButton');
+
+        function renderNode(nodeId) {
+            const node = tree[nodeId];
+            if (!node) {
+                showMessage("Invalid node ID. Please start over.");
+                return;
+            }
+
+            // Clear previous content
+            treeContainer.innerHTML = '';
+
+            // Create a card for the current node's text
+            const textCard = document.createElement('div');
+            textCard.className = 'card rounded-xl p-8 mb-6 transition-all duration-300 transform scale-95 opacity-0';
+            textCard.innerHTML = `<p class="text-xl md:text-2xl font-medium">${node.text}</p>`;
+            treeContainer.appendChild(textCard);
+
+            // Animate card entry
+            setTimeout(() => {
+                textCard.classList.remove('scale-95', 'opacity-0');
+                textCard.classList.add('scale-100', 'opacity-100');
+            }, 50);
+
+            // Render options if they exist
+            if (node.options) {
+                node.options.forEach((option, index) => {
+                    const button = document.createElement('button');
+                    button.className = 'w-full px-6 py-4 my-2 rounded-full font-semibold btn-primary transition-all duration-300 transform scale-95 opacity-0';
+                    button.innerText = option.text;
+                    button.onclick = () => renderNode(option.nextId);
+                    treeContainer.appendChild(button);
+
+                    // Animate button entry
+                    setTimeout(() => {
+                        button.classList.remove('scale-95', 'opacity-0');
+                        button.classList.add('scale-100', 'opacity-100');
+                    }, 50 * (index + 2));
+                });
+            }
+
+            // Show reset button if it's an outcome
+            if (node.isOutcome) {
+                resetButton.style.display = 'block';
+            } else {
+                resetButton.style.display = 'none';
+            }
+        }
+
+        function startOver() {
+            renderNode('start');
+        }
+
+        resetButton.addEventListener('click', startOver);
+
+        // Initial render
+        startOver();
+
+    </script>
+</body>
+</html>
