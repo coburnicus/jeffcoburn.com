@@ -1,25 +1,35 @@
-/* Colors */
+/* Colors & type */
 :root {
   --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
+  --gray: #c0c0c0;
   --darkgray: #333;
-  --navy: #17050F;
+  --navy: #0a1a3f;
   --blue: #082840;
   --white: #fff;
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
 }
 
 /* Global stylesheet */
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html,
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
-  padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
+  font-size: var(--text-base);
+  line-height: 1.6;
   color: var(--darkgray);
   background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 p:last-child {
   margin-bottom: 0;

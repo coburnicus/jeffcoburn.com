@@ -147,17 +147,7 @@
   </url>
   
   <url>
-    <loc>https://jeffcoburn.com/tags/til/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/gatsby/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/vscode/</loc>
+    <loc>https://jeffcoburn.com/tags/weeknotes/</loc>
     <lastmod>2026-11-13</lastmod>
   </url>
   
@@ -172,7 +162,17 @@
   </url>
   
   <url>
-    <loc>https://jeffcoburn.com/tags/weeknotes/</loc>
+    <loc>https://jeffcoburn.com/tags/til/</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/gatsby/</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/vscode/</loc>
     <lastmod>2026-11-13</lastmod>
   </url>
   
