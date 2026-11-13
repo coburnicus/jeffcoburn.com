@@ -26,7 +26,7 @@
       <div class="flex_column"><h1 class="home"><a href="/">Adventures in Jeffland</a></h1>
         <h2>I haven't really thought this through</h2></div>
       <div class="flex_column nav_sticky"><nav>
-        <div class="tilt">nav</div>
+        
         
         <ul class="nav">
           <li class="nav-item"><a href="/posts/">Archive</a></li>
@@ -51,13 +51,14 @@
      
       <!-- Stop deleting -->
 
-      <div class="tilt">actual content &#8595;&#8595;</div>
+      
 <h1>Apple Blocking PWAs on iOS is Not New</h1>
-<small><small><time datetime="2024-02-24">24 Feb 2024</time> </small></small>
-<p><img src="/img/uploads/youtube_is_a_pwa.png" alt="Youtube declared a PWA by lighthouse" style="max-width: 100%; height: auto;"></p>
+
+<!-- <p><img src="/img/uploads/youtube_is_a_pwa.png" alt="Youtube declared a PWA by lighthouse" style="max-width: 100%; height: auto;"></p>-->
 <p>You might have read about Apple's <a href="https://www.engadget.com/apple-confirms-home-screen-web-apps-will-no-longer-work-on-european-ios-devices-112527560.html#:~:text=It%20blames%20the%20EU's%20demand%20to%20support%20non%2DWebKit%20browsers.&amp;text=Apple%20has%20explained%20why%20it's,recent%20iOS%2017.4%20beta%20releases.">recent skullduggery</a> with regards to blocking PWAs (<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">Progress Web Apps</a>) in the EU, in response to the <a href="https://www.nytimes.com/2024/01/25/technology/apple-app-store-europe.html">EU forcing apple to relinquish</a> some control over their walled garden. But, near as I can tell, Apple has always, selectively, blocked PWAs. For example, if you don't love the YouTube app, and perhaps want to run it as a PWA (maybe you might use your own <a href="https://apps.apple.com/af/app/vinegar-tube-cleaner/id1591303229">tracker/ad blocking</a> stuff), you cannot. You can save it to your home screen, but it will not open as PWA; instead opening as a tab inside of safari. Youtube is a PWA, according to my lighthouse test result (see image), so it would seem Apple is choosing not to honor it's status as PWA. I have not seen a reason as to why this would happen, but I would have to assume it has something to do with <a href="https://www.theverge.com/2023/10/26/23933206/google-apple-search-deal-safari-18-billion">Apple's business relationship to google</a>, and nothing to do with any valid technical reasons against it. I would love to be wrong about this.</p>
 <p>To be clear, this is stupid and rotten and makes me feel trepidatious about my very Apple-centric tech stack.</p>
 
+<div style="text-align: right;"><small><small><time datetime="2024-02-24">24 Feb 2024</time> </small></small></div>
 <hr>
 <ul><li>Previous: <a href="/posts/til/sharp/">TIL - How I Fixed Endless Sharp Module Errors in Gatsby</a></li>
 </ul>
@@ -65,7 +66,6 @@
     </main>
    
     <footer>
-    <div class="tilt">Footer</div>
     <hr>
 
     <p> Copyright &copy; 1998-<script>document.write(new Date().getFullYear())</script> Jeff Coburn</p>

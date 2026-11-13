@@ -39,6 +39,13 @@ nav {margin:auto; max-width: 200px;
 
 .container {margin:auto; max-width: 1000px;}
 
+header .flex_row {display: flex; flex-wrap: nowrap; align-items: flex-start; gap: 0.5em;}
+header .flex_column {flex: 1 1 0; min-width: 0;}
+header .flex_column:last-child {flex: 0 0 auto;}
+header nav {max-width: none; margin: 0;}
+header nav ul {margin: 0; padding-left: 0;}
+header h1 {font-size: clamp(1.4rem, 6vw, 2em);}
+
 @media all and (min-width: 400px) {
     main {padding:4% 8%;}
 .flex_row {
