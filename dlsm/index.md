@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Do It for The Kids
+title: Do It for the Kids
 templateClass: tmpl-post
 ---
 
