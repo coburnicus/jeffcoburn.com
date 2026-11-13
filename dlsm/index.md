@@ -5,7 +5,7 @@ templateClass: tmpl-post
 
 ---
 
-<center><img src="/img/DLSM_FestTrees.jpg" style="max-width:600px;" alt="Festival of Trees"></center>
+<center><img src="/img/DLSM_FestTrees.jpg" style="width:90%; max-width:600px;" alt="Festival of Trees"></center>
 <p>
 Let's just get this out of the way, up front. I want a little bit of your time and a little bit of your money. Fifty bucks, and a couple few hours. But it's for a good cause, and you get free drinks<sup>*</sup> and snacks. <i>Where?</i> At the Dyer Library and Saco Museum <a href="https://dyerlibrarysacomuseum.org/festival-of-trees/">Festival of Trees Preview Gala</a>. <i>Why there?</i> I am on the board of trustees, and this is our biggest fundraiser. Yes, I'm a little on the late side with asking you, I'll do better next year.</p>
 
