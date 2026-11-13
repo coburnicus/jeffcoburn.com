@@ -147,16 +147,6 @@
   </url>
   
   <url>
-    <loc>https://jeffcoburn.com/tags/pwas/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/books/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jeffcoburn.com/tags/til/</loc>
     <lastmod>2026-11-13</lastmod>
   </url>
@@ -167,17 +157,27 @@
   </url>
   
   <url>
+    <loc>https://jeffcoburn.com/tags/vscode/</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/pwas/</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/books/</loc>
+    <lastmod>2026-11-13</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jeffcoburn.com/tags/weeknotes/</loc>
     <lastmod>2026-11-13</lastmod>
   </url>
   
   <url>
     <loc>https://jeffcoburn.com/tags/uses/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/vscode/</loc>
     <lastmod>2026-11-13</lastmod>
   </url>
   
