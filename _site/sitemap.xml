@@ -17,6 +17,66 @@
   </url>
   
   <url>
+    <loc>https://jeffcoburn.com/about/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/posts/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/page-list/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/yearnotes/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/til/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/vscode/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/pwas/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/gatsby/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/books/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/uses/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/tags/weeknotes/</loc>
+    <lastmod>2021-12-30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jeffcoburn.com/posts/2021/</loc>
     <lastmod>2022-01-01</lastmod>
   </url>
@@ -24,6 +84,11 @@
   <url>
     <loc>https://jeffcoburn.com/posts/weeknotes/01-02-2022/</loc>
     <lastmod>2022-01-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeffcoburn.com/</loc>
+    <lastmod>2022-01-09</lastmod>
   </url>
   
   <url>
@@ -112,82 +177,17 @@
   </url>
   
   <url>
-    <loc>https://jeffcoburn.com/about/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/posts/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/page-list/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <loc>https://jeffcoburn.com/uses/</loc>
+    <lastmod>2024-02-24</lastmod>
   </url>
   
   <url>
     <loc>https://jeffcoburn.com/sundayAM/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/yearnotes/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/pwas/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/books/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/til/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/gatsby/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/vscode/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/weeknotes/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/tags/uses/</loc>
-    <lastmod>2026-11-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeffcoburn.com/uses/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2025-10-15</lastmod>
   </url>
   
   <url>
     <loc>https://jeffcoburn.com/dlsm/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-17</lastmod>
   </url>
 </urlset>
